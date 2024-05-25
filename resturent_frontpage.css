@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    position: sticky;
+    top:0;
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 30px;
+    z-index: 50;
+    
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+.contanair{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.hero img{
+
+    border: 5px;
+    border-radius: 50%;
+    
+
+    
+}
+.hero_contanair{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.tag{
+    background-color: green;
+    padding: 10px; 
+    color: white;
+    align-self: flex-start;
+    
+}
+.hero_contanair h1{
+    font-size: 80px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.explore_btn{
+    background-color: yellowgreen;
+    align-self: flex-start;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+.explore_btn:hover{
+    opacity: 0.6;
+    transition: 0.3s ease-in-out
+}
+.features{
+    display: flex;
+    gap: 20px;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.feature:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 0.3s ease-in-out
+}
+.divider{
+    border: 1px solid rgb(145, 137, 137);
+    margin: 20px ;
+}
+.menu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.menu .tag{
+    align-self: center;
+}
+.grid img{
+    border-radius: 50px;
+    
+}
+.grid img:hover{
+    transform: scale(1.05);
+    transition: 0.3 s ease-in-out;
+}
+
+.grid {
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    gap: 5px;
+    grid-template-areas:
+    "I1  I5 I3"
+    "I1  I6 I3"
+    "I4  I2 I7";
+    
+    
+}
+.item1{
+    grid-area: I1;
+
+}
+.item2{
+    grid-area: I2;
+
+}
+.item3{
+    grid-area: I3;
+
+}
+.item4{
+    grid-area: I4;
+
+}
+.item5{
+    grid-area: I5;
+
+}
+.item6{
+    grid-area: I6;
+
+}
+.item7{
+    grid-area: I7;
+
+}
+footer{
+    background-color: bisque;
+}
+.ft_contaner{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.link_list,.news_letter h3{
+    margin-bottom: 10px;
+color: rgb(56, 51, 51);
+}
+.link_list ul{
+    list-style: none;
+}
+.link_list ul li{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.news_letter input{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
